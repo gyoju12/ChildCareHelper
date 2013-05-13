@@ -1,0 +1,28 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" 
+>
+	<com.nbpcorp.mobilead.sdk.MobileAdView
+		xmlns:mobilead="http://schemas.android.com/apk/res/kr.mimic.childcarehelper"
+		android:id="@+id/adview1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		mobilead:channel_id="mandroid_cab842759f3c47b5a47b8e9c1a997ef7"
+		mobilead:test="true"
+	/>
+	<FrameLayout
+		android:id="@+id/fragment_arae"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" 
+	>
+	<!-- <fragment
+		android:name="kr.mimic.childcarehelper.fragment.MainFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" 
+	/> -->
+	</FrameLayout>
+</LinearLayout>

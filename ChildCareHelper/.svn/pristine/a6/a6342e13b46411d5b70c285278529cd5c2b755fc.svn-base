@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" 
+>
+	<TextView
+		android:id="@+id/tv_result"
+		android:layout_width="match_parent"
+		android:layout_height="75dip"
+		android:background="@color/tv_search_category"
+		android:gravity="center"
+		android:padding="5dip"
+		android:text="@string/tv_search_count"
+		android:textColor="@color/text_white"
+		android:textSize="18sp"
+		android:textStyle="bold" 
+	/>
+	<ListView
+		android:id="@id/android:list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+	/>
+	<TextView 
+		android:id="@id/android:empty"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:text="@string/list_empty"
+		android:textSize="20sp"
+	/>
+</LinearLayout>

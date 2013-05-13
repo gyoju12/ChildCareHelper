@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="tv_search_category">#FF00CCFF</color>
+	<color name="list_item_bg_color">#7000CCFF</color>
+
+	<!-- Text Color -->
+	<color name="text_search_category">#FFFFFFFF</color>
+	<color name="text_black">#FF000000</color>
+	<color name="text_white">#FFFFFFFF</color>
+</resources>
